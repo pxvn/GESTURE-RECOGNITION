@@ -300,7 +300,7 @@ void lcd_print_centered(const char* str, uint8_t row) {
 void setup() {
   Serial.begin(9600);
   Serial.println("=== Sign Language Recognition System ===");
-  Serial.println("By Bhavesh Suthar");
+  Serial.println("By Pavan Kalsariya");
   
   pinMode(MODE_BUTTON, INPUT_PULLUP);
   pinMode(SELECT_BUTTON, INPUT_PULLUP);
